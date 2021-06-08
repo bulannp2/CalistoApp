@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activityPria"
+    android:background="@drawable/bg"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="T-Shirt Men"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/brown"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/baloo"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/judul"
+            android:text="@string/shop_now"
+            android:textSize="20sp"
+            android:textColor="@color/brown"/>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:rowCount="4">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="280dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="306dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/bajum1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="TreesPalm T-Shirt"
+                        android:textAlignment="center"
+                        android:textColor="@color/brown"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/baloo"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="IDR 50K"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Stock : 150"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Size : S, M, L, XL, XXL"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="280dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="306dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="160dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/bajum2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="Post Malone T-Shirt"
+                        android:textAlignment="center"
+                        android:textColor="@color/brown"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/baloo"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="IDR 50K"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Stock : 15"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Size : S, M, L, XL, XXL"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="280dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="306dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/bajum7" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="Soul T-Shirt"
+                        android:textAlignment="center"
+                        android:textColor="@color/brown"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/baloo"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="IDR 60K"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Stock : 200"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Size : S, M, L, XL, XXL"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="280dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="306dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/bajum8" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="Japan T-Shirt"
+                        android:textAlignment="center"
+                        android:textColor="@color/brown"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/baloo"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="IDR 60K"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Stock : 200"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Size : S, M, L, XL, XXL"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="280dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="306dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/mmp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="Mickey Mouse T-Shirt"
+                        android:textAlignment="center"
+                        android:textColor="@color/brown"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/baloo"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="IDR 50K"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Stock : 150"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Size : S, M, L, XL, XXL"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="280dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="306dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/quicksilver" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="Quicksilver T-Shirt"
+                        android:textAlignment="center"
+                        android:textColor="@color/brown"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/baloo"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="IDR 70K"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Stock : 200"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Size : S, L, XL, XXL"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="280dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="306dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/swp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="Star Wars T-Shirt"
+                        android:textAlignment="center"
+                        android:textColor="@color/brown"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/baloo"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="IDR 80K"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Stock : 50"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Size : S, M, L, XL"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="280dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="306dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/thrasher" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="Thrasher T-Shirt"
+                        android:textAlignment="center"
+                        android:textColor="@color/brown"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/baloo"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="IDR 70K"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Stock : 40"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Size : S, XL"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>

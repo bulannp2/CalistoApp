@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activityCatPria"
+    android:background="@drawable/bg"
+    android:gravity="bottom"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:rowCount="10"
+        android:columnCount="1"
+        android:alignmentMode="alignMargins"
+        android:layout_weight="9"
+        android:layout_marginTop="30dp"
+        android:columnOrderPreserved="false">
+
+        <TextView
+            android:id="@+id/judul_cat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/baloo"
+            android:text="Calisto Men."
+            android:textColor="@color/brown"
+            android:textSize="30sp" />
+
+
+        <Button
+            android:id="@+id/kemejaPria"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="85dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/baloo"
+            android:text="Kemeja "
+            android:textColor="@color/brown"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/bajuPria"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="85dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/baloo"
+            android:text="Baju Kaos"
+            android:textColor="@color/brown"
+            android:textSize="20sp" />
+
+    </GridLayout>
+
+</LinearLayout>

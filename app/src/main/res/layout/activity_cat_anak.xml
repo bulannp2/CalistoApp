@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activityCatAnak"
+    android:background="@drawable/bg"
+    android:gravity="bottom"
+    android:padding="40dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/judul_cat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calisto Kids."
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/baloo"
+            android:textColor="@color/brown"/>
+
+    </RelativeLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:rowCount="10"
+        android:columnCount="2"
+        android:alignmentMode="alignMargins"
+        android:layout_weight="9"
+        android:layout_marginTop="30dp"
+        android:columnOrderPreserved="false">
+
+
+        <Button
+            android:id="@+id/celanaAnak"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="100dp"
+            android:backgroundTint="@color/white"
+            android:text="@string/celana"
+            android:fontFamily="@font/baloo"
+            android:textSize="20sp"
+            android:textColor="@color/brown"/>
+
+        <Button
+            android:id="@+id/bajuAnak"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="100dp"
+            android:backgroundTint="@color/white"
+            android:text="Baju"
+            android:fontFamily="@font/baloo"
+            android:textSize="20sp"
+            android:textColor="@color/brown"/>
+
+        <Button
+            android:id="@+id/sepatuAnak"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/white"
+            android:text="Sepatu"
+            android:fontFamily="@font/baloo"
+            android:textSize="20sp"
+            android:textColor="@color/brown"/>
+
+        <Button
+            android:id="@+id/outerAnak"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/white"
+            android:text="Outer"
+            android:fontFamily="@font/baloo"
+            android:textSize="20sp"
+            android:textColor="@color/brown"/>
+    </GridLayout>
+
+</LinearLayout>

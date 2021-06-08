@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activityProfile"
+    android:background="@drawable/bg">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:id="@+id/category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_below="@id/imgLogo"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/baloo"
+        android:gravity="center"
+        android:text="Happy Shopping"
+        android:textSize="30sp"
+        android:textColor="@color/brown"/>
+
+    <Button
+        android:id="@+id/btnWanita"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@id/category"
+        android:layout_marginTop="10dp"
+        android:text="@string/women"
+        android:fontFamily="@font/baloo"
+        android:textSize="20sp"
+        android:textColor="@color/brown"
+        android:backgroundTint="@color/white"/>
+
+    <Button
+        android:id="@+id/btnPria"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@id/btnWanita"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/men"
+        android:fontFamily="@font/baloo"
+        android:textSize="20sp"
+        android:textColor="@color/brown" />
+
+    <Button
+        android:id="@+id/btnAnak"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@id/btnPria"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/kids"
+        android:fontFamily="@font/baloo"
+        android:textSize="20sp"
+        android:textColor="@color/brown" />
+
+    <Button
+        android:id="@+id/btnUser"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@id/btnAnak"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        android:text="ORDER HERE"
+        android:fontFamily="@font/baloo"
+        android:textSize="20sp"
+        android:textColor="@color/brown"/>
+
+</RelativeLayout>

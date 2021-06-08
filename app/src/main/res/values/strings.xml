@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">calistoshop</string>
+    <string name="happy_shopping">Happy Shopping</string>
+    <string name="women">Women</string>
+    <string name="men">Men</string>
+    <string name="about_us">About Us</string>
+    <string name="calisto_women">Calisto Women.</string>
+    <string name="calisto_womens">Calisto women.</string>
+    <string name="shop_now">Shop now!</string>
+    <string name="calisto_men">Calisto men.</string>
+    <string name="kids">Kids</string>
+    <string name="celana">Celana</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="heading">heading</string>
+    <string name="desc">desc</string>
+    <string name="finish">finish</string>
+</resources>

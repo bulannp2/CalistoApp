@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.calistoshop">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Calistoshop">
+        <activity android:name=".ActivityLogin"></activity>
+        <activity android:name=".activityOrder" />
+        <activity android:name=".activityKemejaPria" />
+        <activity android:name=".activityCatPria" />
+        <activity android:name=".activityCelanaWanita" />
+        <activity android:name=".activityBajuWanita" />
+        <activity android:name=".activityCatWanita" />
+        <activity android:name=".activityOuterAnak" />
+        <activity android:name=".activitySepatuAnak" />
+        <activity android:name=".activityBajuAnak" />
+        <activity android:name=".activityCelanaAnak" />
+        <activity android:name=".activityCatAnak" />
+        <activity android:name=".activityAnak" />
+        <activity android:name=".activityUser" />
+        <activity android:name=".activityPria" />
+        <activity android:name=".activityWanita" />
+        <activity android:name=".activityProfile" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

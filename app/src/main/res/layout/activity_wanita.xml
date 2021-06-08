@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activityWanita"
+    android:background="@drawable/bg"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cardigan Women."
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/brown"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/baloo"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/judul"
+            android:text="@string/shop_now"
+            android:textSize="20sp"
+            android:textColor="@color/brown"/>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:rowCount="4"
+            android:columnCount="2"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_horizontal"
+            android:columnOrderPreserved="false">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="238dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_margin="10dp"
+                android:id="@+id/bajuw1"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="306dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="140dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/baju1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="Havana Cardi"
+                        android:textAlignment="center"
+                        android:textColor="@color/brown"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/baloo"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="IDR 163K"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Stock : 150"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Size : All size fit to XL"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="238dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_margin="10dp"
+                android:id="@+id/bajuw2"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="306dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="140dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/baju2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="Ivory Cardi"
+                        android:textAlignment="center"
+                        android:textColor="@color/brown"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/baloo"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="IDR 125K"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Stock : 150"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Size : All size fit to XL"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="238dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_margin="10dp"
+                android:id="@+id/bajuw3"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="306dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="140dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/baju3"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="Rachel Cardi"
+                        android:textAlignment="center"
+                        android:textColor="@color/brown"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/baloo"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="IDR 99K"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Stock : 150"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Size : All size fit to XL"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="238dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_margin="10dp"
+                android:id="@+id/bajuw4"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="306dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="140dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/baju4" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="Rachel Cardi 2"
+                        android:textAlignment="center"
+                        android:textColor="@color/brown"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/baloo"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="IDR 99K"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Stock : 150"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Size : All size fit to XL"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="238dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_margin="10dp"
+                android:id="@+id/bajuw5"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="306dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="140dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/bajuu5" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="Savana"
+                        android:textAlignment="center"
+                        android:textColor="@color/brown"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/baloo"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="IDR 196K"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Stock : 150"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Size : All size fit to XL"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="238dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_margin="10dp"
+                android:id="@+id/bajuuw"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="306dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="140dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/baju6"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="B Bro Sweater"
+                        android:textAlignment="center"
+                        android:textColor="@color/brown"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/baloo"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="IDR 189K"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Stock : 150"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Size : All size fit to XL"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="238dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_margin="10dp"
+                android:id="@+id/bajuuww"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="306dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="140dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/baju7" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="Brown Ed"
+                        android:textAlignment="center"
+                        android:textColor="@color/brown"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/baloo"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="IDR 199K"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Stock : 150"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Size : All size fit to XL"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="238dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_margin="10dp"
+                android:id="@+id/bajuu"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="306dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="140dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/baju8" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="B Bro Sweater"
+                        android:textAlignment="center"
+                        android:textColor="@color/brown"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/baloo"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="IDR 199K"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Stock : 150"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Size : All size fit to XL"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>

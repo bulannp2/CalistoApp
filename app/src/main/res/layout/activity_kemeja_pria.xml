@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activityKemejaPria"
+    android:background="@drawable/bg"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shirt Men."
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/brown"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/baloo"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/judul"
+            android:text="@string/shop_now"
+            android:textSize="20sp"
+            android:textColor="@color/brown"/>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:rowCount="4">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="280dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="306dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/kemejap1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="Soft"
+                        android:textAlignment="center"
+                        android:textColor="@color/brown"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/baloo"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="IDR 229K"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Stock : 150"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Size : All size fit to XL"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="280dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="306dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/kemejap2"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/brown"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="Double Outer"
+                        android:textAlignment="center"
+                        android:gravity="center_horizontal"
+                        android:fontFamily="@font/baloo"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="IDR 200K"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Stock : 25"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Size : All size fit to XL"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="280dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="306dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/kemejap3"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/brown"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="Brown"
+                        android:textAlignment="center"
+                        android:gravity="center_horizontal"
+                        android:fontFamily="@font/baloo"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="IDR 200K"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Stock : 250"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Size : All size fit to XL"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="280dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="306dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/kemejap4"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/brown"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="Two Side Brown"
+                        android:textAlignment="center"
+                        android:gravity="center_horizontal"
+                        android:fontFamily="@font/baloo"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="IDR 199K"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Stock : 500"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Size : All size fit to XL"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="280dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="306dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/whp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="White Line Shirt"
+                        android:textAlignment="center"
+                        android:textColor="@color/brown"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/baloo"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="IDR 250K"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Stock : 10"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Size : L, XL, XXL"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="280dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="306dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/cbp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="Casual Brown"
+                        android:textAlignment="center"
+                        android:textColor="@color/brown"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/baloo"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="IDR 270K"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Stock : 15"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Size : S, L"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="280dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="306dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/blp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="Blue Line Shirt"
+                        android:textAlignment="center"
+                        android:textColor="@color/brown"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/baloo"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="IDR 180K"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Stock : 50"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Size : S, M, L, XL"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="280dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="306dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/psp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="Plain Shirt"
+                        android:textAlignment="center"
+                        android:textColor="@color/brown"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/baloo"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="IDR 270K"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Stock : 40"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Size : S, M, XL"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>
